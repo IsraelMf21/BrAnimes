@@ -1,0 +1,47 @@
+body{
+    padding: 0; /*esta tirando o espaço do canto da pagina*/
+    margin: 0; /*está diminuindo a margem da pagina*/
+}
+.conteiner{
+    width: 960px; /*está ajustando a caixa da div*/
+    margin:auto; /*está medindo automaticamente as margens esquerda e direita para centralizar*/
+}
+header{ 
+    background-color: #000000; /*está alicando a cor no cabeçalho*/
+    color: #ffffff; /*está alterando a cor da fonte*/
+}
+header .conteiner{
+    display: flex; 
+    align-items: center;
+}
+#logo{
+    width: 250px; /*diminuindo o tamanho geral do logo*/
+}
+#logo img{
+    width: 100%; /*mantendo a qualidade de imagem 100%*/
+}
+#direita{
+    flex-grow: 1;
+    text-align: center;
+}
+#direita p{
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+header nav a:hover{
+    background-color: #0000ff;
+    color: #ffffff;
+
+}
